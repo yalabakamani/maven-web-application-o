@@ -23,7 +23,7 @@ node {
        bat 'mvn test'   
       }
    }
-   /*
+  
    stage('SonarQube Report Generation')
    {
     if(isUnix()){
@@ -50,7 +50,7 @@ node {
        sh 'cp $WORKSPACE/target/*.war /Users/bhaskarreddyl/BhaskarReddyL/Softwares/Running/apache-tomcat-9.0.12/webapps/'
        sh 'echo deploymnet done'
    }
-   */
+
    stage ('Email Notifcation'){
        
        mail bcc: '', body: '''Build done
