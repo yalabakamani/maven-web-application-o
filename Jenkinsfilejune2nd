@@ -22,6 +22,7 @@ node{
      sh  "${mvnHome}/bin/mvn clean package"
    }
    
+   /*
    stage('ExecuteSonarQubeReport'){
        
       sh  "${mvnHome}/bin/mvn sonar:sonar"  
@@ -40,6 +41,7 @@ node{
            sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.234.32.110:/opt/apache-tomcat-9.0.20/webapps/maven-web-application.war"
       } 
    }
+   */
    
    stage('SendEmailNotification'){
        
