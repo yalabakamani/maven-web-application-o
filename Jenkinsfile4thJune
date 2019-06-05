@@ -28,12 +28,12 @@ node{
       
      sh "${mvnHome}/bin/mvn clean package"
   }
-  
+  /*
   stage('SonarQubeReport'){
       
      sh "${mvnHome}/bin/mvn sonar:sonar"
   }  
-    
+    */
 stage('UploadArtifactIntoNexus'){
       
      sh "${mvnHome}/bin/mvn deploy"
