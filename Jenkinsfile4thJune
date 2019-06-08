@@ -39,13 +39,14 @@ stage('UploadArtifactIntoNexus'){
      sh "${mvnHome}/bin/mvn deploy"
   } 
   
+  /*
   stage('DeployApplication'){
       
     sshagent(['tomcatServerCredentials']) {
     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.49.224:/opt/apache-tomcat-9.0.20/webapps/maven-web-application.war"
 } 
   }
-  
+  */
   stage('SendEmailNotification'){
       
       emailext body: '''Build is over
