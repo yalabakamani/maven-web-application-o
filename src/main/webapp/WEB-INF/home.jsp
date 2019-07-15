@@ -21,7 +21,7 @@
 
 	</span>
 	<span style="font-weight: bold;">
-		Mithun Technologies, 
+		Mithun Software Solutions Pvt Ltd, 
 		SGR Dental college Road,
 		Martha Halli,Opp To Madhurai Iddly House
 		Bangalore.
