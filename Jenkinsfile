@@ -1,4 +1,6 @@
-node()
+//node('master')
+//node()
+node('flipkart-node')
 {
     
      //Getting the  env  global varibale values
@@ -25,7 +27,7 @@ echo "JOB Name ${env.JOB_NAME}"
       git branch: 'development', credentialsId: 'e93bf3fe-9b64-42dd-b45c-2da9cafeedf1', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git' 
    } 
     
-    /*
+    
     stage('Build'){
         
       sh "${mvnHome}/bin/mvn clean package"
@@ -46,10 +48,10 @@ echo "JOB Name ${env.JOB_NAME}"
 	stage('DeployApplication'){
 	
 	sshagent(['sshkeyagenttomcat']) {
-	    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.118.177:/opt/apache-tomcat-9.0.22/webapps/maven-web-application.war"
+	    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.234.115.195:/opt/apache-tomcat-9.0.22/webapps/maven-web-application.war"
 	}
 	}
-	*/
+	
 	stage('EmailNotification'){
 	    emailext body: '''Build Mail from Jenkins
 
