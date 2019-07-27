@@ -21,7 +21,7 @@ node('master')
        ])
    ])
    
-
+        /*
         stage('CheckoutCode'){
         git branch: 'development', credentialsId: '2587140f-2970-4f0e-aac3-62624e3d9682', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
         }
@@ -46,7 +46,7 @@ node('master')
          sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.233.149.177:/opt/apache-tomcat-9.0.22/webapps/maven-web-application.war"
 	    }
          }
-         
+          */
      stage('EmailNotification'){
          emailext body: '''Build is over
          Please check the logs...
