@@ -7,7 +7,7 @@
 <head>
 <spring:url value="/resources/images/mithunlogo.jpg" var="mithunlogo" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>Mithun Software Solutions- Home Page</title>
 <link href="${mithunlogo}" rel="icon">
 </head>
 </head>
