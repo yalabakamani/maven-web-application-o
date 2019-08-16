@@ -9,7 +9,7 @@ node{
 echo "JOB Name ${env.JOB_NAME}"
 
 properties([
-       buildDiscarder(logRotator(numToKeepStr: '3')),
+       buildDiscarder(logRotator(numToKeepStr: '2')),
        pipelineTriggers([
            pollSCM('* * * * *')
        ])
