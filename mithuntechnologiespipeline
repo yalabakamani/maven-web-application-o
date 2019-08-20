@@ -20,7 +20,7 @@ def mvnHome = tool name: 'maven3.6.1', type: 'maven'
 stage('CheckoutCode'){
 git branch: 'development', credentialsId: '2d363fa9-138b-41d8-ab89-0dd8706ecfb1', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
 }
-
+/*
 stage('Build'){
 sh "${mvnHome}/bin/mvn clean package"
 }
@@ -50,5 +50,6 @@ Mithun Software Solutions,
 
 ''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com'
 }
+*/
 
 }
