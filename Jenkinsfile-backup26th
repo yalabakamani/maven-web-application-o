@@ -1,4 +1,4 @@
-def version = ''
+def version = '1'
 def props = ''
 def branchName = env.BRANCH_NAME //make lowercase because startsWith is case sensitive
 def buildNum = ''
