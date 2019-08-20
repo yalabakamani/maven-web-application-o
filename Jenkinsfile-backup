@@ -1,6 +1,6 @@
 #!groovy
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '3'))])
-
+//Test - SIngle Line comment
 node {
    /* 
     stage('Checkout') { 
