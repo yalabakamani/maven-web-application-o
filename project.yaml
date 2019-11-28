@@ -1,5 +1,5 @@
 #Maven Build--------------------------------------------------------
-java: 1.7
+java: 1.8
 akmid: 102861
 maven: apache-maven-3.3.9
 appVersion: 0.1
