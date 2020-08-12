@@ -88,16 +88,16 @@
 
 	</dependencies>
 	
-	<!-- <distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Software Solutions Releases Nexus Repository</name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-release/</url>
+	      <name>Release nexus repo</name>
+	      <url>http://3.21.129.75:8081/repository/maven-release1/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Software Solutions Snapshot Nexus Repository </name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-snapshot/</url>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://3.21.129.75:8081/repository/maven-snap/</url>
 	    </snapshotRepository>
 	</distributionManagement> -->
 	
