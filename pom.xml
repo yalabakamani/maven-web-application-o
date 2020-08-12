@@ -99,7 +99,7 @@
 	      <name>Snapshot Nexus Repository </name>
 	      <url>http://3.21.129.75:8081/repository/maven-snap/</url>
 	    </snapshotRepository>
-	</distributionManagement> -->
+	</distributionManagement> 
 	
 	<build>
 		<finalName>maven-web-application</finalName>
